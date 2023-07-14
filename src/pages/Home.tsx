@@ -1,12 +1,11 @@
 import Thumbnail from "../components/Thumbnail";
-import { useState } from 'react';
 
 function Home() {
-    const phrase = "Home";
-    const bgImage = 'https://media.istockphoto.com/id/675997560/photo/beautiful-surprised-young-woman-in-glasses-standing-in-front-of-wonderful-blue-background.jpg?s=612x612&w=0&k=20&c=JC2sC1tWqFxGXi-aWaFaP6QYCBSYPlF-AKNnvNcM0po=';
+    const phrase = "See everything with Clarity";
+    const bgImage = 'https://www.sea2see.org/cdn/shop/collections/Diseno_sin_titulo_2_1200x1200.png?v=1619782333';
 
     return (< div className='grow'>
-        <Thumbnail phrase={phrase} bgImage={bgImage} />
+        <Thumbnail phrase={phrase} bgImage={bgImage} isVisible={true} />
     </div>
     );
 }

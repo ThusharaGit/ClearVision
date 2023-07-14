@@ -1,14 +1,14 @@
-import { Link } from "react-router-dom";
 import Thumbnail from "../components/Thumbnail";
 
 function Recomended() {
-    const phrase = "Recomended";
-    const bgImage = 'https://t3.ftcdn.net/jpg/05/59/57/64/360_F_559576463_IUADuxjqr3OwLHvYHgB8BYDmstJkwOJs.webp';
-    return( 
-    <div className="grow">
-   <Thumbnail phrase={phrase} bgImage={bgImage}/>
-    </div>
-    );        
-    }
-    
-    export default Recomended;
+    const phrase = "Recomended Products";
+    const bgImage = 'https://images.squarespace-cdn.com/content/v1/5e4484568fb6f75685b0ff2c/1632430406345-41R1N06FC5BZEADMUNM0/lindberg-r-yjackie-k229-u9-u9-a.jpg?format=1000w';
+
+    return (
+        <div className="grow">
+            <Thumbnail phrase={phrase} bgImage={bgImage} isVisible={false} />
+        </div>
+    );
+}
+
+export default Recomended;
