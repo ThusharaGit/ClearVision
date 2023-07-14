@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 function SignIn() {
 
@@ -6,7 +6,7 @@ function SignIn() {
     <div className="grow">
     <h1>This is SignIn</h1>
     </div>
-    )        
+    );        
     }
     
-    export default SignIn
+    export default SignIn;
